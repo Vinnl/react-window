@@ -9,7 +9,7 @@ const columnWidths = new Array(1000)
 const getItemSize = index => columnWidths[index];
 
 const Column = ({ index, style }) => (
-  <div style={style}>Column {index}</div>
+  <div style={style}>Item {index}</div>
 );
 
 const Example = () => (

@@ -9,7 +9,7 @@ const rowHeights = new Array(1000)
 const getItemSize = index => rowHeights[index];
 
 const Row = ({ index, style }) => (
-  <div style={style}>Row {index}</div>
+  <div style={style}>Item {index}</div>
 );
 
 const Example = () => (

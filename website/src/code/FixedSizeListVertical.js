@@ -1,7 +1,7 @@
 import { FixedSizeList as List } from 'react-window';
 
 const Row = ({ index, style }) => (
-  <div style={style}>Row {index}</div>
+  <div style={style}>Item {index}</div>
 );
 
 const Example = () => (
